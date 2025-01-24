@@ -1,0 +1,30 @@
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .tech-stack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .tech-item {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .tech-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
